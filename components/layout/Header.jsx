@@ -14,15 +14,15 @@ const Header = ({handleHidden}) => {
       })
     return (
         <>
-            <header className={scroll ? "bg-transparent sticky-bar mt-4 stick": "bg-transparent sticky-bar mt-4"}>
+            <header className= "bg-transparent sticky-bar mt-4">
                 <div className="container bg-transparent">
                     <nav className="bg-transparent flex justify-between items-center py-3">
                         <Link href="/">
                             <a className="text-3xl font-semibold leading-none">
                                 <img
-                                    className="h-20"
-                                    src="/assets/imgs/logos/limaydev-logo1.png"
-                                    alt="Limay Dev"
+                                    className="h-25"
+                                    src="/assets/imgs/logos/logo_20.png"
+                                    alt="GDL Vending"
                                 />
                             </a>
                         </Link>
@@ -37,21 +37,21 @@ const Header = ({handleHidden}) => {
                             <li className="pt-4 pb-4">
                                 <Link href="/about">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        About Us
+                                        Especificaciones Técnicas
                                     </a>
                                 </Link>
                             </li>
                             <li className="pt-4 pb-4">
                                 <Link href="/services">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        Services
+                                        Servicios
                                     </a>
                                 </Link>
                             </li>
                             <li className="pt-4 pb-4">
                                 <Link href="/contact">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        Contact
+                                        Contacto
                                     </a>
                                 </Link>
                             </li>

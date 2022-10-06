@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Head>
-                <title>LimayDev - Solutions that flows like a river </title>
+                <title>GDL Vending - Tu Snack 24/7 </title>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link
                     rel="preconnect"

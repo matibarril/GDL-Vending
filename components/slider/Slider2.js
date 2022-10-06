@@ -18,16 +18,16 @@ const Slider2 = () => {
             >
 
                 <SwiperSlide>
-                    <img className="rounded" src="/assets/imgs/placeholders/14.jpg" alt="Limay_River" />
-                </SwiperSlide>
-                {/*<SwiperSlide>
-
-                    <img className="rounded" src="/assets/imgs/placeholders/img-7.png" alt="Monst" />
+                    <img className="rounded" src="/assets/imgs/placeholders/vending_1.png" alt="GDL_Vending" />
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <img className="rounded" src="/assets/imgs/placeholders/img-8.png" alt="Monst" />
-                </SwiperSlide> */}
+                    <img className="rounded" src="/assets/imgs/placeholders/vending_2.png" alt="GDL_Vending" />
+                </SwiperSlide>
+                <SwiperSlide>
+
+                    <img className="rounded" src="/assets/imgs/placeholders/vending_3.png" alt="GDL_Vending" />
+                </SwiperSlide>
             </Swiper>
 
 {/*
